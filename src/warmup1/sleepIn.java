@@ -1,3 +1,5 @@
+package warmup1;
+
 import com.sun.tools.javac.Main;
 
 public class sleepIn {
@@ -8,9 +10,9 @@ public class sleepIn {
     We sleep in if it is not a weekday or we're on vacation.
     Return true if we sleep in.
 
-        sleepIn(false, false) → true
-        sleepIn(true, false) → false
-        sleepIn(false, true) → true
+        warmup1.sleepIn(false, false) → true
+        warmup1.sleepIn(true, false) → false
+        warmup1.sleepIn(false, true) → true
      */
     public static void main(String[] args) {
         System.out.println(sleepIn(false , false));
