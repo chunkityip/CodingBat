@@ -9,7 +9,7 @@ public class front3 {
 
         front3("Java") → "JavJavJav"
         front3("Chocolate") → "ChoChoCho"
-        front3("abc") → "abcabcabc"
+        front3("abc") → "abcabcab"
      */
 
     public static void main (String [] args) {
