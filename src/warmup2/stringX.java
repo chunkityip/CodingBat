@@ -9,6 +9,7 @@ public class stringX {
         stringX("xxHxix") → "xHix"
         stringX("abxxxcd") → "abcd"
         stringX("xabxxxcdx") → "xabcdx"
+        Testing
      */
     public static void main (String[] args) {
         System.out.println(stringX("xxHxix"));
