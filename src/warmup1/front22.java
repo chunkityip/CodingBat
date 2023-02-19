@@ -19,16 +19,10 @@ public class front22 {
     }
 
     public static String front22(String str) {
-        int length = str.length();
-        String answer;
+        if (str.length() < 2) return str + str + str;
 
-        if (length > 2) {
-            String front = str.substring(0 , 2);
-            answer = front + str + front;
-        } else {
-            answer = str + str + str;
-        }
+        String frontAndBack = str.substring(0, 2);
 
-        return answer;
+        return frontAndBack + str + frontAndBack;
     }
 }
