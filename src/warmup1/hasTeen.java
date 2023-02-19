@@ -29,6 +29,6 @@ public class hasTeen {
     }
 
     public static boolean isTean(int i) {
-        return (i >= 13 && && i <= 19);
+        return (i >= 13 && i <= 19);
     }
   */
