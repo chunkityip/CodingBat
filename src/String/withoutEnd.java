@@ -9,6 +9,7 @@ public class withoutEnd {
         withoutEnd("Hello") → "ell"
         withoutEnd("java") → "av"
         withoutEnd("coding") → "odin"
+        withoutEnd("Hello") → "ell"
      */
 
     public static void main (String[] args) {
