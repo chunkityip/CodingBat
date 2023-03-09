@@ -1,4 +1,4 @@
-package String;
+package String1;
 
 public class firstHalf {
     /*
