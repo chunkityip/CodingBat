@@ -10,7 +10,7 @@ public class dateFashion {
      Otherwise the result is 1 (maybe).
 
 
-        dateFashion(5, 10) → 222
+        dateFashion(5, 10) → 22
         dateFashion(5, 2) → 0
         dateFashion(5, 5) → 1
 
