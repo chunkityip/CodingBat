@@ -1,4 +1,4 @@
-package logic1;
+package Logic1;
 
 public class in1To10 {
 
