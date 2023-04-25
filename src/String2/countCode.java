@@ -8,10 +8,12 @@ public class countCode {
     }
 
     public static int countCode(String str) {
-        int result = 0;
-        for (int i = 0; i <= str.length()-4 ; i++) {
-            if (str.substring(i,i+4).matches("co[a-z]e")) result++;
+        int count = 0;
+        for (int i = 0; i < str.length() - 3 ; i++) {
+            if (str.substring(i, i + 4).matches("co[a-z]e")) {
+                count++;
+            }
         }
-        return result;
+        return count;
     }
 }
