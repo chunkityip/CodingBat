@@ -19,4 +19,10 @@ public class endsLy {
         if (length < 2) return false;
         return str.substring(str.length() -2).equals("ly");
     }
+
+    /*
+    or
+    if (str.length() <= 1) return false;
+    return (str.endsWith("ly"));
+     */
 }
