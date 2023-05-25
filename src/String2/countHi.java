@@ -19,4 +19,14 @@ public class countHi {
         }
         return count;
     }
+
+    /*Another way to do so:
+        // Replace all occurrences of "hi" with an empty string
+        String stringWithoutHi = str.replace("hi", "");
+
+         // Calculate the difference in length between the original string and the modified string
+         int count = (str.length() - stringWithoutHi.length()) / 2;
+
+        return count;
+     */
 }
