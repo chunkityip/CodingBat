@@ -18,5 +18,14 @@ public class doubleChar {
 
         return ans;
     }
+    /*
+    Another way to do so :
+
+    return str.replaceAll(".", "$0$0");
+
+    In the solution str.replaceAll(".", "$0$0"), the regex . matches any character in the input string str.
+    For each matched character, $0$0 is the replacement string used,
+    which effectively doubles the matched character by concatenating it with itself.
+     */
 
 }
