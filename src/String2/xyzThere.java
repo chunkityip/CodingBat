@@ -19,4 +19,12 @@ public class xyzThere {
         }
         return false;
     }
+
+    /*
+    Another way to do so :
+    String modifiedStr = str.replace(".xyz", "###");
+    return modifiedStr.contains("xyz");
+
+    replace all the .xyz to something else . then we are checking is str still have any "xyz" left
+     */
 }
