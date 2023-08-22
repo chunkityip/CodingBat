@@ -20,4 +20,13 @@ public class makeAbba {
     public static String makeAbba(String a, String b) {
         return a + b + b + a;
     }
+    /* Stringbuilder way
+    public String makeAbba(String a, String b) {
+      StringBuilder sb = new StringBuilder();
+
+      sb.append(a).append(b).append(b).append(a);
+
+      return sb.toString();
+}
+     */
 }
