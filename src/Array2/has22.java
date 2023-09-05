@@ -3,7 +3,7 @@ package Array2;
 public class has22 {
 
     public static void main (String[] args) {
-        int[] num = {1 , 2 , 2};
+        int[] num = {1 , 2 , 222};
         System.out.println(has22(num));
 
         int[] num1 = {1 , 2 , 1 , 2};
