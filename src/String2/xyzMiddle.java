@@ -3,7 +3,7 @@ package String2;
 public class xyzMiddle {
 
     public static void main (String[] args) {
-        System.out.println(xyzMiddle("AAxyzBB"));
+        System.out.println(xyzMiddle("AAxyzBBBB"));
         System.out.println(xyzMiddle("AxyzBB"));
         System.out.println(xyzMiddle("AxyzBBB"));
     }
