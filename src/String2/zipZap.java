@@ -23,4 +23,22 @@ public class zipZap {
         return str.replaceAll("z.p", "zp");
     }
      */
+
+    /*
+    Without using any buildin method
+     StringBuilder result = new StringBuilder();
+
+    for (int i = 0; i < str.length(); i++) {
+        // Check if the current character is 'z' and the next character is 'p'
+        if (str.charAt(i) == 'z' && (i + 2 < str.length()) && str.charAt(i + 2) == 'p') {
+            result.append("zp"); // Replace 'zip' or 'zap' with 'zp'
+            i += 2; // Skip the next two characters ('i' or 'a') as well
+        } else {
+            result.append(str.charAt(i)); // Keep other characters as they are
+        }
+    }
+
+    return result.toString();
+}
+     */
 }
