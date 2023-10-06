@@ -3,7 +3,7 @@ package Array2;
 public class modThree {
 
     public static void main (String[] args) {
-        int[] num = {2, 1, 3, 5};
+        int[] num = {2, 1, 3, 5 , 5 };
         int[] num1 = {2, 1, 2, 5};
         int[] num2 = {2, 4, 2, 5};
 
