@@ -14,9 +14,9 @@ public class equalIsNot {
         int countNot = 0;
 
         for (int i = 0; i < str.length() - 1; i++) {
-            if (str.substring(i , i + 2).equals("is")) countIs++;
+            if ("is".equals(str.substring(i , i + 2))) countIs++;
             //i < str.length() - 2 to avoid IndexOutOfBound
-            if (i < str.length() - 2 && str.substring(i , i + 3).equals("not")) countNot++;
+            if (i < str.length() - 2 && "not".equals(str.substring(i , i + 3))) countNot++;
         }
 
         return countIs == countNot;

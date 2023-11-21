@@ -16,7 +16,7 @@ public class notString {
      */
     public static String notString(String str) {
         int length = str.length();
-        if (length >= 3 && str.substring(0 , 3).equals("not")) {
+        if (length >= 3 && "not".equals(str.substring(0 , 3))) {
             return str;
         }
         return "not " + str;

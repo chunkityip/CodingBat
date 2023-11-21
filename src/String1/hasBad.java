@@ -20,8 +20,8 @@ public class hasBad {
     }
 
     public static boolean hasBad(String str) {
-        if (str.length() >= 3 && str.substring(0 , 3).equals("bad")) return true;
-        if (str.length() >= 4 && str.substring(1 , 4).equals("bad")) return true;
+        if (str.length() >= 3 && "bad".equals(str.substring(0 , 3))) return true;
+        if (str.length() >= 4 && "bad".equals(str.substring(1 , 4))) return true;
 
         return false;
     }
