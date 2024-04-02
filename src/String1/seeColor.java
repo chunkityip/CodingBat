@@ -21,8 +21,8 @@ public class seeColor {
     public static String seeColor(String str) {
         int length = str.length();
 
-        if (length >= 3 && str.substring(0 , 3).equals("red"))  return "red";
-        if (length >= 4 && str.substring(0 , 4).equals("blue")) return "blue";
+        if (length >= 3 && "red".equals(str.substring(0 , 3)))  return "red";
+        if (length >= 4 && "blue".equals(str.substring(0 , 4))) return "blue";
 
         return "";
     }

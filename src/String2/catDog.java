@@ -14,8 +14,8 @@ public class catDog {
         int dogCount = 0;
 
         for (int i = 0; i < str.length() - 2; i++) {
-            if (str.substring(i , i + 3).equals("cat")) catCount++;
-            if (str.substring(i , i + 3).equals("dog")) dogCount++;
+            if ("cat".equals(str.substring(i , i + 3))) catCount++;
+            if ("dog".equals(str.substring(i , i + 3))) dogCount++;
         }
 
         return catCount == dogCount;

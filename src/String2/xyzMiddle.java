@@ -18,11 +18,11 @@ public class xyzMiddle {
         boolean hasMiddle = len % 2 == 1;
 
         //if even , it means the balance of left and right are euqlas
-        if (hasMiddle) return str.substring(middleIndex - 1, middleIndex + 2).equals("xyz");
+        if (hasMiddle) return "xyz".equals(str.substring(middleIndex - 1, middleIndex + 2));
 
         //right are at most one
-        return str.substring(middleIndex - 2, middleIndex + 1).equals("xyz")
+        return "xyz".equals(str.substring(middleIndex - 2, middleIndex + 1))
                 //left are at most one
-                || str.substring(middleIndex - 1, middleIndex + 2).equals("xyz");
+                || "xyz".equals(str.substring(middleIndex - 1, middleIndex + 2));
     }
 }

@@ -20,7 +20,7 @@ public class doubleX {
         if (count == -1) return false;
         if (count + 1 >= str.length()) return false;
 
-        return str.substring(count + 1 , count + 2).equals("x");
+        return "x".equals(str.substring(count + 1 , count + 2));
     }
 
     /* Another way of doing this is to use startWith() method

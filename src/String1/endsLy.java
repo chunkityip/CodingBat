@@ -17,7 +17,7 @@ public class endsLy {
     public static boolean endsLy(String str) {
         int length = str.length();
         if (length < 2) return false;
-        return str.substring(str.length() -2).equals("ly");
+        return "ly".equals(str.substring(str.length() -2));
     }
 
     /*
