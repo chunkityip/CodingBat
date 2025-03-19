@@ -24,7 +24,9 @@ public class deFront {
         String ans = str.substring(2 , str.length());
         if (str.charAt(0) == 'a') ans = str.charAt(0) + str.substring(2);
         if (str.charAt(1) == 'b') ans = str.charAt(1) + str.substring(2);
-        if (str.charAt(0) == 'a' && str.charAt(1) == 'b') ans = str;;
+        if (str.charAt(0) == 'a' && str.charAt(1) == 'b') {
+            ans = str;
+        };
 
         return ans;
     }
